@@ -1,0 +1,23 @@
+# === Core ===
+numpy>=1.23
+scipy>=1.10
+pandas>=1.5
+matplotlib>=3.7
+scikit-image>=0.21
+scikit-learn>=1.3
+opencv-python>=4.8
+tqdm>=4.66
+pillow>=10.0
+
+# === PyTorch (CPU既定)。GPUを使う場合は後述のコマンドでCUDA版に入れ替え ===
+torch>=2.2
+torchvision>=0.17
+
+# === TEM / ファイルIO（DM4対応） ===
+hyperspy[all]>=2.0
+pyDM3reader>=0.2.3
+tifffile>=2023.8.30
+
+# === Jupyter ===
+jupyterlab>=4.0
+ipykernel>=6.25
